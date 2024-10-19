@@ -1,7 +1,4 @@
-/*Roboto Slaf 400, 700
-  Roboto 400 500 700 900
-  Roboto Mono 400 500 700
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
@@ -342,4 +339,302 @@ footer p{
 
 .proyect p{
   margin-bottom: 35px;
+}
+/* Media Queries */
+/*Pantallas peques (Celus)*/
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    height: auto;
+    padding-top: 10px;
+  }
+
+  .social-header {
+    margin: 0 10px;
+  }
+
+  .social-icons {
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .nav {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .nav-log, .nav-link {
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .home-main {
+    grid-template-columns: 1fr;
+  }
+
+  .main-container {
+    margin-top: 20px;
+    height: auto;
+    padding: 0 15px;
+  }
+
+  .main-container__text {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .main-container__link {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .news-content {
+    grid-template-columns: 1fr;
+  }
+
+  .news-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .news-info {
+    grid-column: 1;
+  }
+
+  .post-blogs {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .post-blogs img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-content__article {
+    padding: 0 15px 20px;
+  }
+
+  .section-contact {
+    flex-direction: column;
+    padding: 10px 15px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .profile-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .proyect {
+    max-width: 100%;
+  }
+
+  .main-blog {
+    padding: 0 15px 20px;
+  }
+
+  .main-blog__content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .main-blog__content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .blog-content__article {
+    padding: 0;
+  }
+
+  .blog-content__article h1 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+
+  .blog-content__article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .section-contact {
+    padding: 20px 15px;
+    flex-direction: column;
+  }
+
+  .contact {
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .social-header {
+    margin: 0 20px;
+  }
+
+  .social-icons {
+    margin-right: 20px;
+    width: auto;
+  }
+
+  .nav {
+    height: auto;
+  }
+
+  .home-main {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .main-container {
+    margin-top: 30px;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .news-content {
+    grid-template-columns: 1fr;
+  }
+
+  .news-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .post-blogs {
+    max-width: 48%;
+    padding: 10px;
+  }
+
+  .post-blogs img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-content__article {
+    padding: 0 30px 30px;
+  }
+
+  .section-contact {
+    flex-wrap: wrap;
+    padding: 15px 30px;
+  }
+
+  .contact {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .profile {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .profile-img {
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+
+  .proyect {
+    max-width: 48%;
+  }
+  .main-blog {
+    padding: 0 30px 30px;
+  }
+
+  .main-blog__content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .main-blog__content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .blog-content__article {
+    padding: 0;
+  }
+
+  .blog-content__article h1 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+
+  .blog-content__article p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .section-contact {
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .contact {
+    width: 45%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
 }
